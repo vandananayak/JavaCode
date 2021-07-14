@@ -4,7 +4,7 @@ public class Fibinocci {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         int count=scan.nextInt();
-
+        System.out.println("fib series");
         int a=0,b=1,c;
         System.out.println(a);
         System.out.println(b);
