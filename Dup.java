@@ -2,20 +2,20 @@ public class Dup {
         public static void main(String[] args) throws Exception {
             int[] arr = { 5, 6, 6, 5, 7, 6, 5, 6};
             int[] result = new int[10];
-            int counter = 0, count = 0;
+            int Res_index = 0, count = 0;
             for (int i = 0; i < arr.length; i++) {
-                boolean isDistinct = false;
+                boolean isDup = false;
                 for (int j = 0; j < i; j++) {
                     if (arr[i] == arr[j]) {
-                        isDistinct = true;
+                        isDup = true;
                         break;
                     }
                 }
-                if (!isDistinct) {
-                    result[counter++] = arr[i];
+                if (!isDup) {//is distinct
+                    result[Res_index++] = arr[i];//result=5,6,7
                 }
             }
-            for (int i = 0; i < counter; i++) {
+            for (int i = 0; i < Res_index; i++) {
                 count = 0;
                 for (int j = 0; j < arr.length; j++) {
                     if (result[i] == arr[j]) {
