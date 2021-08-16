@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Sort",
-        "OOPS"
+        "OOPS",
+        "BasicProgram"
     ]
 }
