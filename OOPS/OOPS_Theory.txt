@@ -1,0 +1,55 @@
+Object oriented programming
+--------------------------------------------
+Why oops?
+Reusability:Rather than coding again and again we can reuse the existing code for example calling the function recursively
+data redundancy can be avoided: In case if same functionality has to be used in two different classes u need not write it sepeartely instead u can inherit from other classes
+Data abstraction: Making the code visibility abstract to other classes will make them secure
+Fast processing: the codes can be broken into pieces(classes)
+---------------------------------------------------------------------------------------------------------------
+properties of oops
+data abstraction and encapsulation
+inheritance
+polymorphism
+---------------------------------------------------------------------------------------------------------------
+What is object?
+Is a real world entity that has property and function 
+in terms of programming it is the instance of a classes
+................................................................
+what is class?
+is the template for the creation of the object
+It will contain data members and member functions
+..................................................
+What is encapsulation?
+is the process of wrapping the code and data members into one single unit
+If the data in the class is made private  u can access it by using getter and setter and the code can be made read only or write only code
+used for data hiding
+------------------------------------------------------------------------------
+what is abstraction?
+process of hiding the implementation or the method
+
+abstract class will have abstract and non abstract method
+the method defination must b inside the inherited class
+u cant instantiate the class directly
+u need to create a class that inherits the abstract class and to that class u can create an object
+----------------------------------------------------------------------------------------------------
+What is inheritance?
+inheritance is the mechanism in which a class can acquire properties from other class
+there are 5 types of inheritance
+simple inheritance
+hierarchial inheritance
+multi level
+multiple inheritance
+hybrid 
+
+-----------------------------------------------------------------------------------------------------
+what is polymorphism?
+performing a task in different ways.
+
+runtime polymorphism (overriding)
+compile time polymorphism (overloading)
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
